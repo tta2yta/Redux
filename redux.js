@@ -19,3 +19,9 @@ const reducer = (state = 5) => {
   
   // Change code below this line
    const currentState= store.getState()
+
+
+   //Define a Redux action.
+   // Define an action here:
+
+const action ={type:'LOGIN', text:'current user'}
